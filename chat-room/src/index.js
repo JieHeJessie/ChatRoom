@@ -11,6 +11,8 @@ import reducers from './reducers'
 import Login from './container/login/login'
 import Register from './container/register/register'
 
+import 'antd-mobile/dist/antd-mobile.css';
+
 const store = createStore(reducers, compose(
 	applyMiddleware(thunk),
 	window.devToolsExtension?window.devToolsExtension():f=>f
