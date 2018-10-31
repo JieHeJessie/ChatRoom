@@ -6,13 +6,11 @@ import {Switch, Route} from 'react-router-dom'
 import NavLinkBar from '../navlink/navlink'
 import Boss from '../boss/boss'
 import Seeker from '../seeker/seeker'
+import User from '../user/user'
 
 
 function Msg(){
 	return<h1>Msg page</h1>
-}
-function User(){
-	return<h1>User page</h1>
 }
 @connect(
 	state=>state
