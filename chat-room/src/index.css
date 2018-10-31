@@ -7,3 +7,11 @@
 .am-card-header-content img{
 	width: 30%;
 }
+
+.am-navbar{
+    height: 45px;
+}
+ 
+.am-tab-bar {
+    height: 50px !important;
+}

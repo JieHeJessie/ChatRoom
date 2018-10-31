@@ -16,6 +16,7 @@ function Msg(){
 	state=>state
 )
 class Dashboard extends React.Component{
+    
 	render(){
 
        const {pathname} = this.props.location
@@ -55,7 +56,7 @@ class Dashboard extends React.Component{
 		]
 		return(
 			<div>
-				<NavBar mode='dark'>{navList.find(v=>v.path===pathname).title}</NavBar>
+				<NavBar className='fixd-header' mode='dard'>{navList.find(v=>v.path==pathname).title}</NavBar>
 				<div>
 					<Switch>
 						{navList.map(v=>(
