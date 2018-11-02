@@ -35,7 +35,7 @@ ReactDOM.render(
                     <Route path='/login' component={Login}></Route>
                     <Route path='/register' component={Register}></Route>
                     <Route component={Dashboard}></Route>
-                </Switch>               
+                </Switch>              
             </div>        
         </BrowserRouter>     
      </Provider>),    
